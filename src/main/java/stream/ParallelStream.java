@@ -12,9 +12,9 @@ public class ParallelStream {
         list.add(1.0);
         list.add(0.25);
 
-       /* double sumResult= list.parallelStream()
+        double sumResult= list.parallelStream()
                 .reduce((ac,el)->ac+el).get();
-        System.out.println(sumResult);*/
+        System.out.println(sumResult);
 
 
         double divisionResult= list.stream()
